@@ -11,3 +11,5 @@ phraseapp:
       - file: ./locales/<locale_code>.json
         params:
           file_format: i18next_4
+          format_options:
+            include_pluralized_keys: true
