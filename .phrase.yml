@@ -17,3 +17,5 @@ phrase:
         locale_id: 85f80d758902bbb45e5d6538349c5b8f
         encoding: UTF-8
         include_unverified_translations: true
+        format_options:
+          escape_single_quotes: false
