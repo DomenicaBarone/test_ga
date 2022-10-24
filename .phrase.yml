@@ -5,7 +5,7 @@ phrase:
     - file: ./Users/domenicabarone/Downloads/<locale_name>.properties
       params:
         file_format: properties
-        locale_id: <locale_name>
+        locale_id: en
         file_encoding: UTF-8
         autotranslate: true
         format_options:
