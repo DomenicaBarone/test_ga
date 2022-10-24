@@ -13,7 +13,7 @@ phrase:
           escape_meta_chars: false
   pull:
     targets:
-    - file: ../Users/domenicabarone/Downloads/<locale_name>.properties
+    - file: ./Users/domenicabarone/Downloads/<locale_name>.properties
       params:
         file_format: properties
         locale_id: <locale_name>
