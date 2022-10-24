@@ -5,7 +5,7 @@ phrase:
     - file: ./Users/domenicabarone/Downloads/<locale_name>.properties
       params:
         file_format: properties
-        locale_id: <locale_name>
+        locale_id: 85f80d758902bbb45e5d6538349c5b8f
         file_encoding: UTF-8
         autotranslate: true
         format_options:
@@ -16,7 +16,7 @@ phrase:
     - file: ./Users/domenicabarone/Downloads/<locale_name>.properties
       params:
         file_format: properties
-        locale_id: <locale_name>
+        locale_id: 85f80d758902bbb45e5d6538349c5b8f
         encoding: UTF-8
         include_unverified_translations: true
         format_options:
