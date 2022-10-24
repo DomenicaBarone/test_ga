@@ -8,6 +8,8 @@ phrase:
         locale_id: 85f80d758902bbb45e5d6538349c5b8f
         file_encoding: UTF-8
         autotranslate: true
+        format_options:
+          escape_single_quotes: false
         
   pull:
     targets:
