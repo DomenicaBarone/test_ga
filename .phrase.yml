@@ -16,7 +16,7 @@ phrase:
     - file: ./Users/domenicabarone/Downloads/<locale_name>.properties
       params:
         file_format: properties
-        locale_id: 85f80d758902bbb45e5d6538349c5b8f
+        locale_id: b481566844df04f2608fe7aa05e06243
         encoding: UTF-8
         include_unverified_translations: true
         format_options:
