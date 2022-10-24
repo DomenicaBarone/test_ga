@@ -1,15 +1,21 @@
-phraseapp:
-  project_id: a8aeeed6b92f5a7cdd2802abe25952e6
-  file_format: i18next_4
+phrase:
+  project_id: 1f7c2845a714d4ac9929269ce3ed5513
   push:
     sources:
-      - file: ./locales/.json
-        params:
-          file_format: i18next_4
+    - file: ./Users/domenicabarone/Downloads/<locale_name>.properties
+      params:
+        file_format: properties
+        file_encoding: UTF-8
+        autotranslate: true
+        format_options:
+          escape_single_quotes: false
+          escape_meta_chars: false
   pull:
     targets:
-      - file: ./locales/<locale_code>.json
-        params:
-          file_format: i18next_4
-          format_options:
-            include_pluralized_keys: true
+    - file: ../Users/domenicabarone/Downloads/<locale_name>.properties
+      params:
+        file_format: properties
+        encoding: UTF-8
+        include_unverified_translations: true
+        format_options:
+          escape_single_quotes: false
